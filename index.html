@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./images/jj.png"></a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="mainicon">
+            <div class="menu">
+                <i class="bi bi-list"></i>
+            </div>
+        </label>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#about">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <section>
+        <div class="main">
+            <div class="detail"><!---Sarah -->
+                <h1><span>Hi, It's Me</span> <br> I'm <span style="color:#00E8F8;">Atinuke</span></h1>
+                <p>Professional Web Developer </p>
+                <div class="social">
+                    <a href="https://www.instagram.com/sheis_teenu"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.twitter.com/Teenu78"><i class="bi bi-twitter"></i></a>
+
+                </div>
+            </div>
+            <div class="images">
+                <img src="./images/ll.jpeg" alt="" width="100%" >
+            </div>
+        </div>
+        
+    </section>
+   <!-- about section starts -->
+<section class="about" id="about">
+    <div class="box-container">
+        <div class="box">
+            <h1 class="heading">about me</h1>
+            <p>
+                Hey there! I'm Atinuke, a front-end developer certified by New Horizons. With a solid foundation in HTML, CSS, and JavaScript, I specialize in creating visually stunning and accessible websites. I also have expertise in Vue.js, leveraging its power to build dynamic and interactive user interfaces.
+
+                Excited about the endless possibilities in web development, I'm currently on the verge of diving into backend technologies to complement my front-end skills. Collaborating with teams and pushing the boundaries of what's possible in web development is what drives me.
+
+                Let's connect and create remarkable digital experiences together!
+            </p>
+        </div>
+
+        <div class="box">
+            <div id="skills_1" class="skills-info skills-first-style">
+                <!-- Skill 1 -->
+                <div class="clearfix">
+                    <h4>Vuejs</h4>
+                    <div class="skill-value">95%</div>
+                </div>
+                <div id="skill_1" data-value="95" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+
+                <div class="clearfix">
+                    <h4>Phyton</h4>
+                    <div class="skill-value">75%</div>
+                </div>
+                <div id="skill_2" data-value="75" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+
+                <div class="clearfix">
+                    <h4>html</h4>
+                    <div class="skill-value">95%</div>
+                </div>
+                <div id="skill_3" data-value="85" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+
+                <div class="clearfix">
+                    <h4>css</h4>
+                    <div class="skill-value">90%</div>
+                </div>
+                <div id="skill_4" data-value="90" class="skill-container">
+                    <div class="skill-percentage"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">What Sets Me Apart</h1>
+    <div class="box-container">
+      <div class="box">
+ 
+        <h3>Early Start</h3>
+        <p>
+          Beginning my journey into front-end development at 16, I've embraced technology from a young age, setting me apart from many in the field.
+        </p>
+      </div>
+  
+      <div class="box">
+        <h3>Quick Learner</h3>
+        <p>
+          With a knack for adapting to new technologies like Vue.js and exploring backend development fundamentals, I showcase a remarkable ability to learn rapidly.
+        </p>
+      </div>
+  
+      <div class="box">
+        <h3>Fresh Perspective</h3>
+        <p>
+          Growing up in the digital era, my approach to web development is infused with fresh ideas and contemporary trends, lending originality to my projects.
+        </p>
+      </div>
+  
+      <div class="box">
+        <h3>Eager and Curious</h3>
+        <p>
+          Fuelled by youthful curiosity, I eagerly dive into new coding languages and tools, driven by a relentless pursuit of knowledge.
+        </p>
+      </div>
+  
+
+  <section class="contact" id="contact">
+    <h1 class="heading">contact me</h1>
+    <div class="box-container">
+      <div class="bit">
+        <h3>address</h3>
+        <p>Remote</p>
+        <h3>email</h3>
+        <p>atinuke727@gmail.com</p>
+      </div>
+  
+      <form id="myForm">
+        <div class="inputBox">
+            <input type="text" id="name" placeholder="Your name" />
+            <input type="text" id="phone" placeholder="Your number" />
+        </div>
+    
+        <textarea id="message" placeholder="Your message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Send message" class="btn" />
+    </form>
+    </div>
+  </section>
+
+  <script src="./js.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+		
+
+
+</body>
+
+</html>
